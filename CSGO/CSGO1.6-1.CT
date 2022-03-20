@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="26">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"当前地图当前身份当前人物手持的这一把AK枪的子弹内存"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>06F03B84</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1</ID>
+      <Description>"上一级地址+CC偏移=当前地图当前身份当前人物手持的这一把AK枪的子弹内存"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>06F03AB8+cc</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2</ID>
+      <Description>"存放主武器名称"</Description>
+      <LastState Value="00000000" RealAddress="0A2848E4"/>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>4 Bytes</VariableType>
+      <Address>0A2848E4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"手持物品-0A284310+5E8"</Description>
+      <LastState Value="00000000" RealAddress="0A2848F8"/>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>4 Bytes</VariableType>
+      <Address>0A2848F8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"手持物品-0A284310+5EC"</Description>
+      <LastState Value="00000000" RealAddress="0A2848FC"/>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>4 Bytes</VariableType>
+      <Address>0A2848FC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>5</ID>
+      <Description>"当前枪支子弹数"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>0A284310+5EC</Address>
+      <Offsets>
+        <Offset>CC</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>16</ID>
+      <Description>"无描述"</Description>
+      <LastState Value="00000000" RealAddress="0AA49B58"/>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>4 Bytes</VariableType>
+      <Address>0AA49B58</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>18</ID>
+      <Description>"我们需要的基址"</Description>
+      <LastState Value="0AA37ADC" RealAddress="0216E63C"/>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>4 Bytes</VariableType>
+      <Address>cstrike.exe+D6E63C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>19</ID>
+      <Description>"无描述"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>4 Bytes</VariableType>
+      <Address>pcawwclconfig_mm.dll+10A40</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>20</ID>
+      <Description>"无描述"</Description>
+      <LastState Value="11" RealAddress="0A08A37C"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>cstrike.exe+D6E63C</Address>
+      <Offsets>
+        <Offset>CC</Offset>
+        <Offset>5EC</Offset>
+        <Offset>7C</Offset>
+      </Offsets>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
