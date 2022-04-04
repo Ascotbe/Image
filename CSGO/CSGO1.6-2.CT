@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="26">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>76</ID>
+      <Description>"所有人物的主武器子弹地址-cstrike.exe+C7ABC0+7C+5E8+CC"</Description>
+      <LastState Value="50" RealAddress="196A1594"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>cstrike.exe+C7ABC0</Address>
+      <Offsets>
+        <Offset>CC</Offset>
+        <Offset>5E8</Offset>
+        <Offset>7C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>77</ID>
+      <Description>"当前角色的主武器子弹地址-cstrike.exe+D6E63C+7C+5E8+CC"</Description>
+      <LastState Value="50" Activated="1" RealAddress="196A1594"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>cstrike.exe+D6E63C</Address>
+      <Offsets>
+        <Offset>CC</Offset>
+        <Offset>5E8</Offset>
+        <Offset>7C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>145</ID>
+      <Description>"当前角色的血量地址-cstrike.exe+D6E63C+7C+04+160"</Description>
+      <LastState Value="200" Activated="1" RealAddress="0AA5DCBC"/>
+      <VariableType>Float</VariableType>
+      <Address>cstrike.exe+D6E63C</Address>
+      <Offsets>
+        <Offset>160</Offset>
+        <Offset>04</Offset>
+        <Offset>7C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>146</ID>
+      <Description>"所有人物的血量地址-cstrike.exe+C7ABC0+7C+04+160"</Description>
+      <LastState Value="200" RealAddress="0AA5DCBC"/>
+      <VariableType>Float</VariableType>
+      <Address>cstrike.exe+C7ABC0</Address>
+      <Offsets>
+        <Offset>160</Offset>
+        <Offset>04</Offset>
+        <Offset>7C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>147</ID>
+      <Description>"当前角色的护甲地址-cstrike.exe+D6E63C+7C+04+1BC"</Description>
+      <LastState Value="0" RealAddress="0AA5DD18"/>
+      <VariableType>Float</VariableType>
+      <Address>cstrike.exe+D6E63C</Address>
+      <Offsets>
+        <Offset>1BC</Offset>
+        <Offset>04</Offset>
+        <Offset>7C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>148</ID>
+      <Description>"所有人物的护甲地址-cstrike.exe+C7ABC0+7C+04+1BC"</Description>
+      <LastState Value="0" RealAddress="0AA5DD18"/>
+      <VariableType>Float</VariableType>
+      <Address>cstrike.exe+C7ABC0</Address>
+      <Offsets>
+        <Offset>1BC</Offset>
+        <Offset>04</Offset>
+        <Offset>7C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>151</ID>
+      <Description>"当前角色的金钱地址-cstrike.exe+D6E63C+7C+1CC"</Description>
+      <LastState Value="100" Activated="1" RealAddress="0A47AA6C"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>cstrike.exe+D6E63C</Address>
+      <Offsets>
+        <Offset>1CC</Offset>
+        <Offset>7C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>152</ID>
+      <Description>"所有人物的金钱地址-cstrike.exe+C7ABC0+7C+1CC"</Description>
+      <LastState Value="100" RealAddress="0A47AA6C"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>cstrike.exe+C7ABC0</Address>
+      <Offsets>
+        <Offset>1CC</Offset>
+        <Offset>7C</Offset>
+      </Offsets>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
