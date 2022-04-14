@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="26">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>76</ID>
+      <Description>"所有人物的主武器子弹地址-cstrike.exe+C7ABC0+7C+5E8+CC"</Description>
+      <LastState Value="100" RealAddress="132E0254"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>cstrike.exe+C7ABC0</Address>
+      <Offsets>
+        <Offset>CC</Offset>
+        <Offset>5E8</Offset>
+        <Offset>7C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>77</ID>
+      <Description>"当前角色的主武器子弹地址-cstrike.exe+D6E63C+7C+5E8+CC"</Description>
+      <LastState Value="100" Activated="1" RealAddress="132E0254"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>cstrike.exe+D6E63C</Address>
+      <Offsets>
+        <Offset>CC</Offset>
+        <Offset>5E8</Offset>
+        <Offset>7C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>145</ID>
+      <Description>"当前角色的血量地址-cstrike.exe+D6E63C+7C+04+160"</Description>
+      <LastState Value="100" RealAddress="0AADECBC"/>
+      <VariableType>Float</VariableType>
+      <Address>cstrike.exe+D6E63C</Address>
+      <Offsets>
+        <Offset>160</Offset>
+        <Offset>04</Offset>
+        <Offset>7C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>146</ID>
+      <Description>"所有人物的血量地址-cstrike.exe+C7ABC0+7C+04+160"</Description>
+      <LastState Value="100" RealAddress="0AADECBC"/>
+      <VariableType>Float</VariableType>
+      <Address>cstrike.exe+C7ABC0</Address>
+      <Offsets>
+        <Offset>160</Offset>
+        <Offset>04</Offset>
+        <Offset>7C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>147</ID>
+      <Description>"当前角色的护甲地址-cstrike.exe+D6E63C+7C+04+1BC"</Description>
+      <LastState Value="0" RealAddress="0AADED18"/>
+      <VariableType>Float</VariableType>
+      <Address>cstrike.exe+D6E63C</Address>
+      <Offsets>
+        <Offset>1BC</Offset>
+        <Offset>04</Offset>
+        <Offset>7C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>148</ID>
+      <Description>"所有人物的护甲地址-cstrike.exe+C7ABC0+7C+04+1BC"</Description>
+      <LastState Value="0" RealAddress="0AADED18"/>
+      <VariableType>Float</VariableType>
+      <Address>cstrike.exe+C7ABC0</Address>
+      <Offsets>
+        <Offset>1BC</Offset>
+        <Offset>04</Offset>
+        <Offset>7C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>151</ID>
+      <Description>"当前角色的金钱地址-cstrike.exe+D6E63C+7C+1CC"</Description>
+      <LastState Value="10500" RealAddress="12BC367C"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>cstrike.exe+D6E63C</Address>
+      <Offsets>
+        <Offset>1CC</Offset>
+        <Offset>7C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>152</ID>
+      <Description>"所有人物的金钱地址-cstrike.exe+C7ABC0+7C+1CC"</Description>
+      <LastState Value="10500" RealAddress="12BC367C"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>cstrike.exe+C7ABC0</Address>
+      <Offsets>
+        <Offset>1CC</Offset>
+        <Offset>7C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>153</ID>
+      <Description>"所有人物被攻击减速地址-cstrike.exe+C7ABC0+7C+1B0"</Description>
+      <LastState Value="1" RealAddress="12BC3660"/>
+      <VariableType>Float</VariableType>
+      <Address>cstrike.exe+C7ABC0</Address>
+      <Offsets>
+        <Offset>1B0</Offset>
+        <Offset>7C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>154</ID>
+      <Description>"当前角色被攻击减速地址-cstrike.exe+D6E63C+7C+1B0"</Description>
+      <LastState Value="1" RealAddress="12BC3660"/>
+      <VariableType>Float</VariableType>
+      <Address>cstrike.exe+D6E63C</Address>
+      <Offsets>
+        <Offset>1B0</Offset>
+        <Offset>7C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>157</ID>
+      <Description>"当前角色无限购物地址-cstrike.exe+D6E63C+7C+3C4"</Description>
+      <LastState Value="0" RealAddress="12BC3874"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>cstrike.exe+D6E63C</Address>
+      <Offsets>
+        <Offset>3C4</Offset>
+        <Offset>7C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>158</ID>
+      <Description>"所有人物无限购物地址-cstrike.exe+C7ABC0+7C+3C4"</Description>
+      <LastState Value="0" RealAddress="12BC3874"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>cstrike.exe+C7ABC0</Address>
+      <Offsets>
+        <Offset>3C4</Offset>
+        <Offset>7C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>164</ID>
+      <Description>"当前角色无后座力地址-cstrike.exe+D6E63C+7C+5E8+100"</Description>
+      <LastState Value="0" RealAddress="132E0288"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>cstrike.exe+D6E63C</Address>
+      <Offsets>
+        <Offset>100</Offset>
+        <Offset>5E8</Offset>
+        <Offset>7C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>165</ID>
+      <Description>"所有人物无后座力地址-cstrike.exe+C7ABC0+7C+5E8+100"</Description>
+      <LastState Value="0" RealAddress="132E0288"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>cstrike.exe+C7ABC0</Address>
+      <Offsets>
+        <Offset>100</Offset>
+        <Offset>5E8</Offset>
+        <Offset>7C</Offset>
+      </Offsets>
+    </CheatEntry>
+  </CheatEntries>
+  <CheatCodes>
+    <CodeEntry>
+      <Description>替换了 mov byte ptr [esi+000000EC],01</Description>
+      <Address>1239141F</Address>
+      <ModuleName>mp.dll</ModuleName>
+      <ModuleNameOffset>141F</ModuleNameOffset>
+      <Before>
+        <Byte>AE</Byte>
+        <Byte>00</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>C6</Byte>
+        <Byte>86</Byte>
+        <Byte>EC</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>01</Byte>
+      </Actual>
+      <After>
+        <Byte>45</Byte>
+        <Byte>8B</Byte>
+        <Byte>C5</Byte>
+        <Byte>89</Byte>
+        <Byte>AE</Byte>
+      </After>
+    </CodeEntry>
+  </CheatCodes>
+  <UserdefinedSymbols/>
+</CheatTable>
