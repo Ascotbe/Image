@@ -5,13 +5,12 @@
       <ID>315</ID>
       <Description>"当前角色"</Description>
       <Options moHideChildren="1"/>
-      <LastState Value="" Activated="1" RealAddress="00000000"/>
+      <LastState Value="" RealAddress="00000000"/>
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
           <ID>77</ID>
           <Description>"主武器子弹-cstrike.exe+11069BC+7C+5F0+CC"</Description>
-          <LastState Value="20" RealAddress="09E72914"/>
           <VariableType>4 Bytes</VariableType>
           <Address>cstrike.exe+11069BC</Address>
           <Offsets>
@@ -23,7 +22,6 @@
         <CheatEntry>
           <ID>164</ID>
           <Description>"机枪无后座力和手枪连发-cstrike.exe+11069BC+7C+5F0+100"</Description>
-          <LastState Value="0" RealAddress="09E72948"/>
           <VariableType>4 Bytes</VariableType>
           <Address>cstrike.exe+11069BC</Address>
           <Offsets>
@@ -35,7 +33,6 @@
         <CheatEntry>
           <ID>383</ID>
           <Description>"左键冷却-cstrike.exe+11069BC+7C+5F0+B8"</Description>
-          <LastState Value="-1" RealAddress="09E72900"/>
           <VariableType>Float</VariableType>
           <Address>cstrike.exe+11069BC</Address>
           <Offsets>
@@ -47,7 +44,6 @@
         <CheatEntry>
           <ID>145</ID>
           <Description>"血量-cstrike.exe+11069BC+7C+04+160"</Description>
-          <LastState Value="84" RealAddress="0A90FD5C"/>
           <VariableType>Float</VariableType>
           <Address>cstrike.exe+11069BC</Address>
           <Offsets>
@@ -59,7 +55,6 @@
         <CheatEntry>
           <ID>147</ID>
           <Description>"护甲-cstrike.exe+11069BC+7C+04+1BC"</Description>
-          <LastState Value="0" RealAddress="0A90FDB8"/>
           <VariableType>Float</VariableType>
           <Address>cstrike.exe+11069BC</Address>
           <Offsets>
@@ -72,13 +67,12 @@
           <ID>393</ID>
           <Description>"金钱"</Description>
           <Options moHideChildren="1"/>
-          <LastState Value="" Activated="1" RealAddress="00000000"/>
+          <LastState Value="" RealAddress="00000000"/>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
               <ID>151</ID>
               <Description>"实际金钱-cstrike.exe+11069BC+7C+1CC"</Description>
-              <LastState Value="0" RealAddress="09E20E24"/>
               <VariableType>4 Bytes</VariableType>
               <Address>cstrike.exe+11069BC</Address>
               <Offsets>
@@ -89,7 +83,6 @@
             <CheatEntry>
               <ID>391</ID>
               <Description>"显示金钱-cstrike.exe+61B9FC"</Description>
-              <LastState Value="15100" RealAddress="01A1B9FC"/>
               <VariableType>4 Bytes</VariableType>
               <Address>cstrike.exe+61B9FC</Address>
             </CheatEntry>
@@ -98,7 +91,6 @@
         <CheatEntry>
           <ID>312</ID>
           <Description>"移动速度-cstrike.exe+11069BC+290"</Description>
-          <LastState Value="250" RealAddress="0A90FE0C"/>
           <VariableType>Float</VariableType>
           <Address>cstrike.exe+11069BC</Address>
           <Offsets>
@@ -108,7 +100,6 @@
         <CheatEntry>
           <ID>157</ID>
           <Description>"无限购物-cstrike.exe+11069BC+7C+3C4"</Description>
-          <LastState Value="1" RealAddress="09E2101C"/>
           <VariableType>4 Bytes</VariableType>
           <Address>cstrike.exe+11069BC</Address>
           <Offsets>
@@ -119,7 +110,6 @@
         <CheatEntry>
           <ID>154</ID>
           <Description>"被攻击减速-cstrike.exe+11069BC+7C+1B0"</Description>
-          <LastState Value="1" RealAddress="09E20E08"/>
           <VariableType>Float</VariableType>
           <Address>cstrike.exe+11069BC</Address>
           <Offsets>
@@ -130,7 +120,6 @@
         <CheatEntry>
           <ID>246</ID>
           <Description>"X坐标-cstrike.exe+11069BC+7C+04+08"</Description>
-          <LastState Value="182.5695801" RealAddress="0A90FC04"/>
           <VariableType>Float</VariableType>
           <Address>cstrike.exe+11069BC</Address>
           <Offsets>
@@ -142,7 +131,6 @@
         <CheatEntry>
           <ID>245</ID>
           <Description>"Y坐标-cstrike.exe+11069BC+7C+04+0C"</Description>
-          <LastState Value="-208.8499908" RealAddress="0A90FC08"/>
           <VariableType>Float</VariableType>
           <Address>cstrike.exe+11069BC</Address>
           <Offsets>
@@ -154,7 +142,6 @@
         <CheatEntry>
           <ID>314</ID>
           <Description>"Z坐标-cstrike.exe+11069BC+7C+04+10"</Description>
-          <LastState Value="-155.96875" RealAddress="0A90FC0C"/>
           <VariableType>Float</VariableType>
           <Address>cstrike.exe+11069BC</Address>
           <Offsets>
@@ -166,7 +153,6 @@
         <CheatEntry>
           <ID>240</ID>
           <Description>"视角切换-cstrike.exe+D6E63C+2C4"</Description>
-          <LastState Value="0" RealAddress="0A90FE40"/>
           <VariableType>4 Bytes</VariableType>
           <Address>cstrike.exe+11069BC</Address>
           <Offsets>
@@ -235,7 +221,6 @@ fstp dword ptr [eax+00000160]
         <CheatEntry>
           <ID>377</ID>
           <Description>"随地下包(修改为3或者2)-cstrike.exe+11069BC+7C+3C0"</Description>
-          <LastState Value="0" RealAddress="09E21018"/>
           <VariableType>4 Bytes</VariableType>
           <Address>cstrike.exe+11069BC</Address>
           <Offsets>
@@ -246,7 +231,6 @@ fstp dword ptr [eax+00000160]
         <CheatEntry>
           <ID>382</ID>
           <Description>"手雷地址-cstrike.exe+011069BC+7C+628"</Description>
-          <LastState Value="0" RealAddress="09E21280"/>
           <VariableType>4 Bytes</VariableType>
           <Address>cstrike.exe+011069BC</Address>
           <Offsets>
@@ -257,7 +241,6 @@ fstp dword ptr [eax+00000160]
         <CheatEntry>
           <ID>384</ID>
           <Description>"正在使用武器（使用哪个使用哪个地址会变成1）-cstrike.exe+11069BC+7C+5F0+D4"</Description>
-          <LastState Value="1" RealAddress="09E7291C"/>
           <VariableType>4 Bytes</VariableType>
           <Address>cstrike.exe+11069BC</Address>
           <Offsets>
@@ -269,7 +252,6 @@ fstp dword ptr [eax+00000160]
         <CheatEntry>
           <ID>386</ID>
           <Description>"当前人物阵营(1恐怖分子2反恐精英)-cstrike.exe+11069BC+7C+1C8"</Description>
-          <LastState Value="1" RealAddress="09E20E20"/>
           <VariableType>4 Bytes</VariableType>
           <Address>cstrike.exe+11069BC</Address>
           <Offsets>
@@ -280,7 +262,6 @@ fstp dword ptr [eax+00000160]
         <CheatEntry>
           <ID>387</ID>
           <Description>"是否掉血(0免疫伤害)-cstrike.exe+11069BC+7C+4+16C"</Description>
-          <LastState Value="2" RealAddress="0A90FD68"/>
           <VariableType>Float</VariableType>
           <Address>cstrike.exe+11069BC</Address>
           <Offsets>
@@ -301,7 +282,6 @@ fstp dword ptr [eax+00000160]
         <CheatEntry>
           <ID>76</ID>
           <Description>"主武器子弹-cstrike.exe+1033240+7C+5F0+CC"</Description>
-          <LastState Value="20" RealAddress="09E72914"/>
           <VariableType>4 Bytes</VariableType>
           <Address>cstrike.exe+1033240</Address>
           <Offsets>
@@ -324,7 +304,6 @@ fstp dword ptr [eax+00000160]
         <CheatEntry>
           <ID>146</ID>
           <Description>"血量-cstrike.exe+1033240+7C+04+160"</Description>
-          <LastState Value="84" RealAddress="0A90FD5C"/>
           <VariableType>Float</VariableType>
           <Address>cstrike.exe+1033240</Address>
           <Offsets>
@@ -336,7 +315,6 @@ fstp dword ptr [eax+00000160]
         <CheatEntry>
           <ID>148</ID>
           <Description>"护甲-cstrike.exe+1033240+7C+04+1BC"</Description>
-          <LastState Value="0" RealAddress="0A90FDB8"/>
           <VariableType>Float</VariableType>
           <Address>cstrike.exe+1033240</Address>
           <Offsets>
@@ -348,7 +326,6 @@ fstp dword ptr [eax+00000160]
         <CheatEntry>
           <ID>152</ID>
           <Description>"金钱-cstrike.exe+1033240+7C+1CC"</Description>
-          <LastState Value="0" RealAddress="09E20E24"/>
           <VariableType>4 Bytes</VariableType>
           <Address>cstrike.exe+1033240</Address>
           <Offsets>
@@ -359,7 +336,6 @@ fstp dword ptr [eax+00000160]
         <CheatEntry>
           <ID>313</ID>
           <Description>"移动速度-cstrike.exe+1033240+290"</Description>
-          <LastState Value="250" RealAddress="0A90FE0C"/>
           <VariableType>Float</VariableType>
           <Address>cstrike.exe+1033240</Address>
           <Offsets>
@@ -369,7 +345,6 @@ fstp dword ptr [eax+00000160]
         <CheatEntry>
           <ID>153</ID>
           <Description>"被攻击减速-cstrike.exe+1033240+7C+1B0"</Description>
-          <LastState Value="1" RealAddress="09E20E08"/>
           <VariableType>Float</VariableType>
           <Address>cstrike.exe+1033240</Address>
           <Offsets>
@@ -380,7 +355,6 @@ fstp dword ptr [eax+00000160]
         <CheatEntry>
           <ID>158</ID>
           <Description>"无限购物-cstrike.exe+1033240+7C+3C4"</Description>
-          <LastState Value="1" RealAddress="09E2101C"/>
           <VariableType>4 Bytes</VariableType>
           <Address>cstrike.exe+1033240</Address>
           <Offsets>
@@ -391,7 +365,6 @@ fstp dword ptr [eax+00000160]
         <CheatEntry>
           <ID>376</ID>
           <Description>"X坐标-cstrike.exe+1033240+88"</Description>
-          <LastState Value="182.5695801" RealAddress="0A90FC04"/>
           <VariableType>Float</VariableType>
           <Address>cstrike.exe+1033240</Address>
           <Offsets>
@@ -401,7 +374,6 @@ fstp dword ptr [eax+00000160]
         <CheatEntry>
           <ID>375</ID>
           <Description>"Y坐标-cstrike.exe+1033240+8C"</Description>
-          <LastState Value="-208.8499908" RealAddress="0A90FC08"/>
           <VariableType>Float</VariableType>
           <Address>cstrike.exe+1033240</Address>
           <Offsets>
@@ -411,7 +383,6 @@ fstp dword ptr [eax+00000160]
         <CheatEntry>
           <ID>374</ID>
           <Description>"Z坐标-cstrike.exe+1033240+90"</Description>
-          <LastState Value="-155.96875" RealAddress="0A90FC0C"/>
           <VariableType>Float</VariableType>
           <Address>cstrike.exe+1033240</Address>
           <Offsets>
@@ -430,21 +401,18 @@ fstp dword ptr [eax+00000160]
         <CheatEntry>
           <ID>169</ID>
           <Description>"阵营地址-cstrike.exe+61B830"</Description>
-          <LastState Value="0" RealAddress="01A1B830"/>
           <VariableType>4 Bytes</VariableType>
           <Address>cstrike.exe+61B830</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>168</ID>
           <Description>"机器人的个数地址-cstrike.exe+61B82C"</Description>
-          <LastState Value="0" RealAddress="01A1B82C"/>
           <VariableType>4 Bytes</VariableType>
           <Address>cstrike.exe+61B82C</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>385</ID>
           <Description>"准星指向(0墙1友2敌)-cstrike.exe+11069BC+7C+710"</Description>
-          <LastState Value="0" RealAddress="09E21368"/>
           <VariableType>4 Bytes</VariableType>
           <Address>cstrike.exe+11069BC</Address>
           <Offsets>
@@ -455,7 +423,6 @@ fstp dword ptr [eax+00000160]
         <CheatEntry>
           <ID>390</ID>
           <Description>"指针指向敌人编号-cstrike.exe+11069BC+7C+714"</Description>
-          <LastState Value="0" RealAddress="09E2136C"/>
           <VariableType>4 Bytes</VariableType>
           <Address>cstrike.exe+11069BC</Address>
           <Offsets>
@@ -464,13 +431,6 @@ fstp dword ptr [eax+00000160]
           </Offsets>
         </CheatEntry>
       </CheatEntries>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>392</ID>
-      <Description>"无描述"</Description>
-      <LastState Value="0" RealAddress="09E20E24"/>
-      <VariableType>4 Bytes</VariableType>
-      <Address>09E20E24</Address>
     </CheatEntry>
   </CheatEntries>
   <CheatCodes>
