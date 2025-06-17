@@ -1,0 +1,235 @@
+
+COMPUTED VALUES:
+affinity: {}
+apiVersion: v1
+crds:
+  installMethod: operator
+daemonSetAnnotations: {}
+daemonSetLabelsOverride: {}
+dnsPolicy: Default
+enabled: true
+export:
+  filenames:
+  - tetragon.log
+  mode: stdout
+  resources: {}
+  securityContext: {}
+  stdout:
+    argsOverride: []
+    commandOverride: []
+    enabledArgs: true
+    enabledCommand: true
+    extraEnv: []
+    extraVolumeMounts: []
+    image:
+      override: null
+      repository: quay.io/cilium/hubble-export-stdout
+      tag: v1.0.4
+exportDirectory: /var/run/cilium/tetragon/
+extraConfigmapMounts: []
+extraHostPathMounts: []
+extraVolumes: []
+hostNetwork: true
+imagePullPolicy: IfNotPresent
+imagePullSecrets: []
+kind: ServiceAccount
+metadata:
+  labels:
+    app.kubernetes.io/component: operator
+    app.kubernetes.io/instance: tetragon
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: tetragon-operator
+    app.kubernetes.io/part-of: tetragon
+    app.kubernetes.io/version: 1.4.0
+    helm.sh/chart: tetragon-1.4.0
+  name: tetragon-operator-service-account
+  namespace: kube-system
+nodeSelector: {}
+podAnnotations: {}
+podLabels: {}
+podLabelsOverride: {}
+podSecurityContext: {}
+priorityClassName: ""
+rthooks:
+  annotations: {}
+  enabled: false
+  extraHookArgs: {}
+  extraLabels: {}
+  extraVolumeMounts: []
+  failAllowNamespaces: ""
+  image:
+    override: null
+    repository: quay.io/cilium/tetragon-rthooks
+    tag: v0.5
+  installDir: /opt/tetragon
+  interface: ""
+  nriHook:
+    nriSocket: /var/run/nri/nri.sock
+  ociHooks:
+    hooksPath: /usr/share/containers/oci/hooks.d
+  podAnnotations: {}
+  podSecurityContext: {}
+  priorityClassName: ""
+  resources: {}
+  serviceAccount:
+    name: ""
+selectorLabelsOverride: {}
+serviceAccount:
+  annotations: {}
+  create: true
+  name: ""
+serviceLabelsOverride: {}
+tetragon:
+  argsOverride: []
+  btf: ""
+  cgidmap:
+    enabled: false
+  clusterName: ""
+  commandOverride: []
+  cri:
+    enabled: false
+    socketHostPath: ""
+  debug: false
+  enableK8sAPI: true
+  enableKeepSensorsOnExit: false
+  enableMsgHandlingLatency: false
+  enablePolicyFilter: true
+  enablePolicyFilterCgroupMap: false
+  enablePolicyFilterDebug: false
+  enableProcessCred: false
+  enableProcessNs: false
+  enabled: true
+  eventCacheRetries: 15
+  eventCacheRetryDelay: 2
+  exportAllowList: '{"event_set":["PROCESS_EXEC", "PROCESS_EXIT", "PROCESS_KPROBE",
+    "PROCESS_UPROBE", "PROCESS_TRACEPOINT", "PROCESS_LSM"]}'
+  exportDenyList: |-
+    {"health_check":true}
+    {"namespace":["", "cilium", "kube-system"]}
+  exportFileCompress: false
+  exportFileMaxBackups: 5
+  exportFileMaxSizeMB: 10
+  exportFilePerm: "600"
+  exportFilename: tetragon.log
+  exportRateLimit: -1
+  extraArgs: {}
+  extraEnv: []
+  extraVolumeMounts: []
+  fieldFilters: ""
+  gops:
+    address: localhost
+    enabled: true
+    port: 8118
+  grpc:
+    address: localhost:54321
+    enabled: true
+  healthGrpc:
+    enabled: true
+    interval: 10
+    port: 6789
+  hostProcPath: /proc
+  image:
+    override: null
+    repository: quay.io/cilium/tetragon
+    tag: v1.4.0
+  livenessProbe: {}
+  ociHookSetup:
+    enabled: false
+    extraVolumeMounts: []
+    failAllowNamespaces: ""
+    installDir: /opt/tetragon
+    interface: oci-hooks
+    resources: {}
+    securityContext:
+      privileged: true
+  pprof:
+    address: localhost
+    enabled: false
+    port: 6060
+  processCacheGCInterval: 30s
+  processCacheSize: 65536
+  prometheus:
+    address: ""
+    enabled: true
+    metricsLabelFilter: namespace,workload,pod,binary
+    port: 2112
+    serviceMonitor:
+      enabled: false
+      extraLabels: {}
+      labelsOverride: {}
+      scrapeInterval: 10s
+  redactionFilters: ""
+  resources: {}
+  securityContext:
+    privileged: true
+tetragonOperator:
+  affinity:
+    podAntiAffinity:
+      preferredDuringSchedulingIgnoredDuringExecution:
+      - podAffinityTerm:
+          labelSelector:
+            matchLabels:
+              app.kubernetes.io/name: tetragon-operator
+          topologyKey: kubernetes.io/hostname
+        weight: 100
+  annotations: {}
+  enabled: true
+  extraLabels: {}
+  extraPodLabels: {}
+  extraVolumeMounts: []
+  extraVolumes: []
+  failoverLease:
+    enabled: false
+    leaseDuration: 15s
+    leaseRenewDeadline: 5s
+    leaseRetryPeriod: 2s
+    namespace: ""
+  forceUpdateCRDs: false
+  image:
+    override: null
+    pullPolicy: IfNotPresent
+    repository: quay.io/cilium/tetragon-operator
+    tag: v1.4.0
+  nodeSelector: {}
+  podAnnotations: {}
+  podInfo:
+    enabled: false
+  podSecurityContext:
+    allowPrivilegeEscalation: false
+    capabilities:
+      drop:
+      - ALL
+  priorityClassName: ""
+  prometheus:
+    address: ""
+    enabled: true
+    port: 2113
+    serviceMonitor:
+      enabled: false
+      extraLabels: {}
+      labelsOverride: {}
+      scrapeInterval: 10s
+  replicas: 1
+  resources:
+    limits:
+      cpu: 500m
+      memory: 128Mi
+    requests:
+      cpu: 10m
+      memory: 64Mi
+  securityContext: {}
+  serviceAccount:
+    annotations: {}
+    create: true
+    name: ""
+  strategy:
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+    type: RollingUpdate
+  tolerations: []
+  tracingPolicy:
+    enabled: true
+tolerations:
+- operator: Exists
+updateStrategy: {}
